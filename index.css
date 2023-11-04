@@ -1,0 +1,119 @@
+@import "primary-styles.css";
+
+/* header styling */
+
+header {
+    background-color: var(--primary-bg-1);
+    padding: 2rem 8rem 6rem;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2.5rem;
+}
+
+.nav-links a {
+    color: var(--textwhite);
+    font-family: var(--font-second);
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.nav-links a:last-child {
+    background: none;
+    border: 1px solid var(--textwhite);
+    padding: .5rem 2.6rem;
+    border-radius: .3rem;
+}
+
+.nav-links a:last-child:hover {
+    
+}
+
+.nav-links a:hover {
+    opacity: .7;
+    text-decoration: underline;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.hero-left {
+    flex: 1;
+    color: var(--textwhite);
+    position: relative;
+}
+
+.hero-left p {
+    font-family: var(--font-second);
+    letter-spacing: .2rem;
+    margin-bottom: 10rem;
+    text-transform: uppercase;
+}
+
+.hero-left h1 {
+    font-family: var(--font-prime);
+    font-size: 5rem;
+    font-weight: 500;
+    line-height: 4rem;
+    margin-bottom: 1rem;
+    width: 40rem;
+    position: absolute;
+    top: 3.5rem;
+}
+
+.hero-left h3 {
+    font-family: var(--font-second);
+    font-size: 1.2rem;
+    font-weight: 400;
+    margin-top: 14rem;
+    width: 26rem;
+}
+
+.hero-left button {
+    background: none;
+    background-color: var(--primary-bg-2);
+    border: none;
+    border-radius: .2rem;
+    font-size: 1.2rem;
+    margin-top: 2rem;
+    padding: 1rem 4rem;
+    cursor: pointer;
+    transition: box-shadow 0.2s ease-in-out;
+}
+
+.hero-left button a {
+    color: var(--textwhite);
+    text-decoration: none;
+}
+
+.hero-left button:hover {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.hero-right {
+    flex: 3;
+    position: relative;
+    height: 30rem;
+}
+
+.hero-right img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 118%;
+}
+
+/* end of header styling */

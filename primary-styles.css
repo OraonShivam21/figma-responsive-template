@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=DM+Serif+Display&display=swap');
+
+:root {
+    --textblack: rgba(0, 0, 0, 1);
+    --textblack-50: rgba(0, 0, 0, 0.5);
+    --textwhite: rgba(255, 255, 255, 1);
+    --textwhite-50: rgba(255, 255, 255, 0.5);
+    --primary-bg-1: rgba(67, 76, 204, 1);
+    --primary-bg-2: rgba(241, 181, 5, 1);
+    --font-prime: "DM Serif Display", serif;
+    --font-second: "DM Sans", sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
