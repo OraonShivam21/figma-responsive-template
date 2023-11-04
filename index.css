@@ -117,3 +117,84 @@ nav {
 }
 
 /* end of header styling */
+
+/* start of main styling */
+
+article {
+    background-color: rgba(241, 181, 5, .6);
+    padding: 4rem 8rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+article > h1 {
+    font-family: var(--font-prime);
+    font-size: 3rem;
+    font-weight: 400;
+}
+
+article > p {
+    margin: 1.5rem 0;
+    font-family: var(--font-second);
+    width: 30rem;
+    text-align: center;
+}
+
+.article-cards {
+    display: flex;
+    gap: 2rem;
+    margin: 1rem 0 0;
+}
+
+.article-card {
+    flex: 1;
+    background: var(--textwhite);
+    border-radius: .4rem;
+    padding: 2.5rem 2.5rem 1.6rem;
+    width: 20rem;
+}
+
+.article-card > img {
+    display: block;
+    margin: 0 auto 2rem;
+    width: 8rem;
+}
+
+.article-cards .article-card:nth-child(2) > img {
+    width: 13rem;
+}
+
+.article-card h3 {
+    font-family: var(--font-prime);
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-bottom: 1.6rem;
+}
+
+.article-card p {
+    font-family: var(--font-second);
+    font-size: .758rem;
+    font-weight: 500;
+    margin-bottom: 2.6rem;
+    opacity: .7;
+    width: 14rem;
+}
+
+.article-card a {
+    color: var(--textblack);
+    font-family: var(--font-second);
+    font-size: .78rem;
+    font-weight: 800;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: .4rem;
+    width: max-content;
+}
+
+.article-card a img {
+    height: .6rem;
+}
+
+/* end of main styling */
