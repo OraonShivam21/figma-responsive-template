@@ -197,6 +197,7 @@ article > p {
     height: .6rem;
 }
 
+/* section - 1 */
 .section-1 {
     display: flex;
     flex-direction: column;
@@ -275,6 +276,100 @@ article > p {
 .section-1 .section-1_card:last-child {
     flex-direction: row-reverse;
     margin: 0 6rem 0 14rem;
+}
+
+/* section - 2 */
+.section-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--primary-bg-1);
+    color: var(--textwhite);
+    height: 43rem;
+    margin: 6rem 0 0;
+    padding: 4rem;
+}
+
+.section-2_flex-top {
+    margin: 3rem 0 2rem;
+    position: relative;
+}
+
+.section-2_flex-top_content {
+    position: absolute;
+    top: 8rem;
+    left: 10rem;
+}
+
+.section-2_flex-top_subtitle {
+    font-family: var(--font-second);
+    opacity: .7;
+}
+
+.section-2_flex-top_title {
+    font-family: var(--font-prime);
+    font-size: 3rem;
+    font-weight: 400;
+    margin: 2rem 0 3rem;
+    line-height: 3rem;
+    width: 30rem;
+}
+
+.section-2_flex-top_content a {
+    color: var(--textwhite);
+    border: 1px solid var(--textwhite);
+    font-family: var(--font-second);
+    padding: 1rem 3rem;
+    border-radius: .3rem;
+    text-decoration: none;
+}
+
+.section-2_flex-bottom {
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+}
+
+.section-2_flex-bottom_image {
+    position: relative;
+}
+
+.section-2_flex-bottom_image_content {
+    position: absolute;
+    top: 6rem;
+    left: 5rem;
+}
+
+.section-2_flex-bottom_image_subtitle {
+    font-family: var(--font-second);
+    font-size: .8rem;
+    opacity: .7;
+}
+
+.section-2_flex-bottom_image_title {
+    font-family: var(--font-prime);
+    font-size: 1.6rem;
+    font-weight: 400;
+    margin: 1rem 0 2rem;
+    width: 11rem;
+}
+
+.section-2_flex-bottom_image_content a {
+    border: 1px solid var(--textwhite);
+    border-radius: .3rem;
+    display: flex;
+    max-width: max-content;
+    padding: 1rem;
+}
+
+.section-2 > a {
+    border: 1px solid rgba(67, 76, 204, .5);
+    border-radius: .2rem;
+    color: var(--primary-bg-1);
+    font-family: var(--font-second);
+    margin: 3rem 0;
+    padding: 1rem 3rem;
+    text-decoration: none;
 }
 
 /* end of main styling */
