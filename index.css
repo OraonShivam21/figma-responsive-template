@@ -197,4 +197,84 @@ article > p {
     height: .6rem;
 }
 
+.section-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 5rem 0;
+}
+
+.section-1_subtitle {
+    font-family: var(--font-second);
+    font-size: .89rem;
+    letter-spacing: .2rem;
+    text-transform: uppercase;
+}
+
+.section-1_title {
+    margin: 1rem 0 2rem;
+    font-family: var(--font-prime);
+    font-size: 2.6rem;
+    font-weight: 400;
+}
+
+.section-1_content {
+    font-family: var(--font-second);
+    font-size: .89rem;
+    font-weight: 600;
+    text-align: center;
+    width: 26rem;
+}
+
+.section-1_card {
+    display: flex;
+    align-items: center;
+    margin: 2rem 16rem 3rem 5rem;
+}
+
+.section-1_card > img {
+    flex: 1;
+    width: 80%;
+}
+
+.section-1_card-content {
+    flex: 3;
+}
+
+.section-1_card-content h2 {
+    font-family: var(--font-prime);
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+.section-1_card-content p {
+    font-family: var(--font-second);
+    font-size: .7rem;
+    font-weight: 600;
+    line-height: 1rem;
+    opacity: .7;
+    margin: 1rem 0;
+}
+
+.section-1_card-content a {
+    color: var(--textblack);
+    font-family: var(--font-second);
+    font-size: .78rem;
+    font-weight: 800;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: .4rem;
+    width: max-content;
+}
+
+.section-1_card-content a img {
+    height: .6rem;
+}
+
+.section-1 .section-1_card:last-child {
+    flex-direction: row-reverse;
+    margin: 0 6rem 0 14rem;
+}
+
 /* end of main styling */

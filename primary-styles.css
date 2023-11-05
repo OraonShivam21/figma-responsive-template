@@ -16,3 +16,26 @@
     padding: 0;
     margin: 0;
 }
+
+body {
+    width: 100vw;
+    overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+    background: transparent;
+    width: .8rem;
+}
+
+::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+::-webkit-scrollbar-corner {
+    background-color: var(--textblack);
+}
+
+::-webkit-scrollbar-thumb {
+    width: .4rem;
+    background-color: var(--primary-bg-1);
+}
