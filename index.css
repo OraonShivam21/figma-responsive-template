@@ -401,4 +401,60 @@ article > p {
     margin: 2rem 0;
 }
 
+/* section - 4 */
+.section-4 {
+  display: flex;
+  width: 100%;
+}
+
+.section-4_left-cover,
+.section-4_right-cover {
+  flex: 1;
+}
+
+.section-4_left-cover {
+  background-color: var(--primary-bg-1);
+  color: var(--textwhite);
+  font-family: var(--font-second);
+  padding: 7rem 8rem 0;
+}
+
+.section-4_left-cover_subheading {
+  margin-bottom: 2rem;
+  letter-spacing: .2rem;
+  text-transform: uppercase;
+}
+
+.section-4_left-cover_heading {
+  font-family: var(--font-prime);
+  font-size: 4rem;
+  font-weight: 400;
+  line-height: 4.5rem;
+}
+
+.section-4_left-cover_content {
+  margin: 2rem 0 3rem;
+}
+
+.section-4_left-cover button {
+  background: none;
+  background-color: var(--primary-bg-2);
+  border: none;
+  border-radius: 0.2rem;
+  font-size: 1.2rem;
+  margin-top: 2rem;
+  padding: 1rem 4rem;
+  cursor: pointer;
+  transition: box-shadow 0.2s ease-in-out;
+}
+
+.section-4_left-cover button a {
+  color: var(--textwhite);
+  text-decoration: none;
+}
+
+.section-4_left-cover button:hover {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
 /* end of main styling */
